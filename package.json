@@ -1,0 +1,23 @@
+{
+    "name": "tokenizer-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && ts-node ./build/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.10.5",
+        "nodemon": "^3.0.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@metaplex-foundation/mpl-bubblegum": "^3.0.0",
+        "@metaplex-foundation/umi": "^0.8.10",
+        "@metaplex-foundation/umi-bundle-defaults": "^0.8.10"
+    }
+}
